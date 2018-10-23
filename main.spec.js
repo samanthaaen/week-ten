@@ -2,7 +2,7 @@ import Vue from "vue";
 import App from "./components/App.js";
 
 describe("Vue component tests", () => {
-  //const defaultData = App.data();
+  const defaultData = App.data();
   it("An example test should pass.", () => {
     expect(2).toEqual(2);
   });
