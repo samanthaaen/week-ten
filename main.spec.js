@@ -31,4 +31,9 @@ describe("Vue component tests", () => {
     const defaultData = App.data();
     expect(defaultData.currentChart).toBe("localBarData");
   });
+
+  it("should be a test function.", () => {
+    const defaultData = App.data();
+    expect(typeof App.methods.testFunction).toBe("function");
+  });
 });
